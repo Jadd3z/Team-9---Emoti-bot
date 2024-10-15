@@ -1,15 +1,31 @@
+/* Kopjes font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Kalam:wght@300;400;700&display=swap');
+/* p fonts */
 
 * {
     /* outline: 2px solid red; */
     margin: 0px;
     box-sizing: border-box;
 }
+nav img{
+    width: 5vw;
+}
+
+h1,
+h2,
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 html {
     font-size: 15px;
 }
+
 nav {
     background-color: #FFBB70;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -18,13 +34,14 @@ header {
     padding: 100px 200px;
     border-bottom: 2px solid black;
     min-height: calc(90vh - 80px);
-    background-image:url(../CSS/img/robot2.jpg) ;
+    background-image: url(../CSS/img/robot2.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     /* max-height: 50vh;
     max-width: 80vw ; */
 }
+
 body {
     background-color: #FFFBDA;
 }
@@ -40,14 +57,13 @@ body {
 
 .articles {
     min-width: 25vw;
-   background-color:#FFEC9E;
+    background-color: #FFEC9E;
 }
 
 main img {
     width: 100%;
     height: 30vh;
-    object-fit:contain
-    
+    object-fit: contain
 }
 
 footer {
