@@ -157,3 +157,123 @@ footer a {
 
 }
 
+
+
+/* /////////////////////////////        form              ///////////////////////////////////// */
+
+h3 {
+    font-size: 2rem;
+    color: rgb(70, 49, 4);
+}
+
+input,
+select {
+
+    padding: 0.6vh 3vw;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+select {
+    padding: 0.6vh 3vw;
+    font-size: 1rem;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+
+    padding: 10vh 0 10vh 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 60vw;
+    margin: 4vh 0 8vh 0;
+}
+
+.form-row {
+    display: flex;
+    gap: 0.5vw;
+    margin-top: 1vh;
+    align-content: stretch;
+
+
+
+
+}
+
+.form-row-email {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.form-column-last {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1vh;
+    margin-top: 1vh;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+    flex-grow: calc(1);
+    gap: 1vh;
+
+}
+
+#message {
+    padding-bottom: 10vh;
+
+}
+
+.form-button {
+    display: flex;
+    align-self: center;
+    margin: 3vh 0;
+}
+
+#form-button {
+    padding: 1vh 20vw;
+    color: rgb(21, 8, 41);
+
+    border: solid;
+    border-color: rgb(178, 104, 54);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+
+}
+
+.form-button:hover {
+
+    background-color: rgb(218, 139, 30);
+    color: rgb(22, 13, 2);
+    border: solid;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
