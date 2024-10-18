@@ -1,26 +1,49 @@
 /* Kopjes font */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Kalam:wght@300;400;700&display=swap');
 /* p fonts */
+html {
+    font-size: 15px;
+}
 
 * {
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
     margin: 0px;
     box-sizing: border-box;
 }
+nav {
+    display: flex;
+}
+.logo   {
+    flex: 1;
+    
+}
 nav img{
+    
     width: 5vw;
 }
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px 0 0;
+
+}
+.links {
+    align-content: center;
+    
+    
+}
+
 
 h1,
 h2,
 h3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
-html {
-    font-size: 15px;
+h2 {
+    justify-content: center;
 }
+
+
 
 nav {
     background-color: #FFBB70;
