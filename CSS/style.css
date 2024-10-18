@@ -64,7 +64,7 @@ nav {
     background-color: #FFBB70;
 }
 
-header {
+#header-index {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,6 +80,34 @@ header {
     max-width: 80vw ; */
 }
 
+#header-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 200px;
+    border-bottom: 2px solid black;
+    min-height: calc(90vh - 80px);
+    background-image: url(../CSS/img/storybord.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-contacts {
+    background-color: #FFEC9E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 200px;
+    border-bottom: 2px solid black;
+    min-height: calc(90vh - 80px);
+    background-image: url(../CSS/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .creators {
     display: flex;
@@ -92,7 +120,6 @@ header {
 .articles {
     min-width: 25vw;
     background-color: #FFEC9E;
-    
 }
 
 .ceator-p {
